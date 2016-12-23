@@ -1,0 +1,202 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+
+\bibitem[{{Achitouv} \& {Blake}(2015)}]{Achitouv15}
+{Achitouv}, I., \& {Blake}, C. 2015, \bibprd, 92, 083523
+
+\bibitem[{{Anderson} {et~al.}(2014){Anderson}, {Aubourg}, {Bailey}, {Beutler},
+  {Bhardwaj}, {Blanton}, {Bolton}, {Brinkmann}, {Brownstein}, {Burden},
+  {Chuang}, {Cuesta}, {Dawson}, {Eisenstein}, {Escoffier}, {Gunn}, {Guo}, {Ho},
+  {Honscheid}, {Howlett}, {Kirkby}, {Lupton}, {Manera}, {Maraston}, {McBride},
+  {Mena}, {Montesano}, {Nichol}, {Nuza}, {Olmstead}, {Padmanabhan},
+  {Palanque-Delabrouille}, {Parejko}, {Percival}, {Petitjean}, {Prada},
+  {Price-Whelan}, {Reid}, {Roe}, {Ross}, {Ross}, {Sabiu}, {Saito}, {Samushia},
+  {S{\'a}nchez}, {Schlegel}, {Schneider}, {Scoccola}, {Seo}, {Skibba},
+  {Strauss}, {Swanson}, {Thomas}, {Tinker}, {Tojeiro}, {Maga{\~n}a}, {Verde},
+  {Wake}, {Weaver}, {Weinberg}, {White}, {Xu}, {Y{\`e}che}, {Zehavi}, \&
+  {Zhao}}]{Anderson14}
+{Anderson}, L., {Aubourg}, {\'E}., {Bailey}, S., {et~al.} 2014, \bibmnras, 441,
+  24
+
+\bibitem[{{Beutler} {et~al.}(2016){Beutler}, {Blake}, {Koda}, {Mar{\'{\i}}n},
+  {Seo}, {Cuesta}, \& {Schneider}}]{Beutler16}
+{Beutler}, F., {Blake}, C., {Koda}, J., {et~al.} 2016, \bibmnras, 455, 3230
+
+\bibitem[{{Beutler} {et~al.}(2017){Beutler}, {Seo}, {Ross}, {McDonald},
+  {Saito}, {Bolton}, {Brownstein}, {Chuang}, {Cuesta}, {Eisenstein},
+  {Font-Ribera}, {Grieb}, {Hand}, {Kitaura}, {Modi}, {Nichol}, {Percival},
+  {Prada}, {Rodriguez-Torres}, {Roe}, {Ross}, {Salazar-Albornoz},
+  {S{\'a}nchez}, {Schneider}, {Slosar}, {Tinker}, {Tojeiro},
+  {Vargas-Maga{\~n}a}, \& {Vazquez}}]{Beutler17}
+{Beutler}, F., {Seo}, H.-J., {Ross}, A.~J., {et~al.} 2017, \bibmnras, 464, 3409
+
+\bibitem[{{Carron} \& {Neyrinck}(2012)}]{Carron12a}
+{Carron}, J., \& {Neyrinck}, M.~C. 2012, \bibapj, 750, 28
+
+\bibitem[{{Crocce} \& {Scoccimarro}(2006)}]{Crocce06}
+{Crocce}, M., \& {Scoccimarro}, R. 2006, \bibprd, 73, 063520
+
+\bibitem[{{Crocce} \& {Scoccimarro}(2008)}]{Crocce08}
+---. 2008, \bibprd, 77, 023533
+
+\bibitem[{{Dawson} {et~al.}(2013){Dawson}, {Schlegel}, {Ahn}, {Anderson},
+  {Aubourg}, {Bailey}, {Barkhouser}, {Bautista}, {Beifiori}, {Berlind},
+  {Bhardwaj}, {Bizyaev}, {Blake}, {Blanton}, {Blomqvist}, {Bolton}, {Borde},
+  {Bovy}, {Brandt}, {Brewington}, {Brinkmann}, {Brown}, {Brownstein}, {Bundy},
+  {Busca}, {Carithers}, {Carnero}, {Carr}, {Chen}, {Comparat}, {Connolly},
+  {Cope}, {Croft}, {Cuesta}, {da Costa}, {Davenport}, {Delubac}, {de Putter},
+  {Dhital}, {Ealet}, {Ebelke}, {Eisenstein}, {Escoffier}, {Fan}, {Filiz Ak},
+  {Finley}, {Font-Ribera}, {G{\'e}nova-Santos}, {Gunn}, {Guo}, {Haggard},
+  {Hall}, {Hamilton}, {Harris}, {Harris}, {Ho}, {Hogg}, {Holder}, {Honscheid},
+  {Huehnerhoff}, {Jordan}, {Jordan}, {Kauffmann}, {Kazin}, {Kirkby}, {Klaene},
+  {Kneib}, {Le Goff}, {Lee}, {Long}, {Loomis}, {Lundgren}, {Lupton}, {Maia},
+  {Makler}, {Malanushenko}, {Malanushenko}, {Mandelbaum}, {Manera}, {Maraston},
+  {Margala}, {Masters}, {McBride}, {McDonald}, {McGreer}, {McMahon}, {Mena},
+  {Miralda-Escud{\'e}}, {Montero-Dorta}, {Montesano}, {Muna}, {Myers},
+  {Naugle}, {Nichol}, {Noterdaeme}, {Nuza}, {Olmstead}, {Oravetz}, {Oravetz},
+  {Owen}, {Padmanabhan}, {Palanque-Delabrouille}, {Pan}, {Parejko},
+  {P{\^a}ris}, {Percival}, {P{\'e}rez-Fournon}, {P{\'e}rez-R{\`a}fols},
+  {Petitjean}, {Pfaffenberger}, {Pforr}, {Pieri}, {Prada}, {Price-Whelan},
+  {Raddick}, {Rebolo}, {Rich}, {Richards}, {Rockosi}, {Roe}, {Ross}, {Ross},
+  {Rossi}, {Rubi{\~n}o-Martin}, {Samushia}, {S{\'a}nchez}, {Sayres}, {Schmidt},
+  {Schneider}, {Sc{\'o}ccola}, {Seo}, {Shelden}, {Sheldon}, {Shen}, {Shu},
+  {Slosar}, {Smee}, {Snedden}, {Stauffer}, {Steele}, {Strauss}, {Streblyanska},
+  {Suzuki}, {Swanson}, {Tal}, {Tanaka}, {Thomas}, {Tinker}, {Tojeiro},
+  {Tremonti}, {Vargas Maga{\~n}a}, {Verde}, {Viel}, {Wake}, {Watson}, {Weaver},
+  {Weinberg}, {Weiner}, {West}, {White}, {Wood-Vasey}, {Yeche}, {Zehavi},
+  {Zhao}, \& {Zheng}}]{BOSS}
+{Dawson}, K.~S., {Schlegel}, D.~J., {Ahn}, C.~P., {et~al.} 2013, \bibaj, 145,
+  10
+
+\bibitem[{{DESI Collaboration} {et~al.}(2016){DESI Collaboration}, {Aghamousa},
+  {Aguilar}, {Ahlen}, {Alam}, {Allen}, {Allende Prieto}, {Annis}, {Bailey},
+  {Balland}, \& et~al.}]{DESIsci}
+{DESI Collaboration}, {Aghamousa}, A., {Aguilar}, J., {et~al.} 2016, ArXiv
+  e-prints, arXiv:1611.00036
+
+\bibitem[{{Eisenstein} {et~al.}(2007){Eisenstein}, {Seo}, {Sirko}, \&
+  {Spergel}}]{Eisenstein07}
+{Eisenstein}, D.~J., {Seo}, H.-J., {Sirko}, E., \& {Spergel}, D.~N. 2007,
+  \bibapj, 664, 675
+
+\bibitem[{{Harnois-D{\'e}raps} {et~al.}(2013){Harnois-D{\'e}raps}, {Pen},
+  {Iliev}, {Merz}, {Emberson}, \& {Desjacques}}]{cubep3m}
+{Harnois-D{\'e}raps}, J., {Pen}, U.-L., {Iliev}, I.~T., {et~al.} 2013,
+  \bibmnras, 436, 540
+
+\bibitem[{{Hinton} {et~al.}(2017){Hinton}, {Kazin}, {Davis}, {Blake}, {Brough},
+  {Colless}, {Couch}, {Drinkwater}, {Glazebrook}, {Jurek}, {Parkinson},
+  {Pimbblet}, {Poole}, {Pracy}, \& {Woods}}]{Hinton17}
+{Hinton}, S.~R., {Kazin}, E., {Davis}, T.~M., {et~al.} 2017, \bibmnras, 464,
+  4807
+
+\bibitem[{{Kazin} {et~al.}(2014){Kazin}, {Koda}, {Blake}, {Padmanabhan},
+  {Brough}, {Colless}, {Contreras}, {Couch}, {Croom}, {Croton}, {Davis},
+  {Drinkwater}, {Forster}, {Gilbank}, {Gladders}, {Glazebrook}, {Jelliffe},
+  {Jurek}, {Li}, {Madore}, {Martin}, {Pimbblet}, {Poole}, {Pracy}, {Sharp},
+  {Wisnioski}, {Woods}, {Wyder}, \& {Yee}}]{Kazin14}
+{Kazin}, E.~A., {Koda}, J., {Blake}, C., {et~al.} 2014, \bibmnras, 441, 3524
+
+\bibitem[{{Matsubara}(2008)}]{Matsubara08}
+{Matsubara}, T. 2008, \bibprd, 77, 063530
+
+\bibitem[{{Mehta} {et~al.}(2011){Mehta}, {Seo}, {Eckel}, {Eisenstein},
+  {Metchnik}, {Pinto}, \& {Xu}}]{Mehta11}
+{Mehta}, K.~T., {Seo}, H.-J., {Eckel}, J., {et~al.} 2011, \bibapj, 734, 94
+
+\bibitem[{{Neyrinck} {et~al.}(2006){Neyrinck}, {Szapudi}, \&
+  {Rimes}}]{Neyrinck06}
+{Neyrinck}, M.~C., {Szapudi}, I., \& {Rimes}, C.~D. 2006, \bibmnras, 370, L66
+
+\bibitem[{{Noh} {et~al.}(2009){Noh}, {White}, \& {Padmanabhan}}]{Noh09}
+{Noh}, Y., {White}, M., \& {Padmanabhan}, N. 2009, \bibprd, 80, 123501
+
+\bibitem[{{Obuljen} {et~al.}(2016){Obuljen}, {Villaescusa-Navarro},
+  {Castorina}, \& {Viel}}]{Obuljen16}
+{Obuljen}, A., {Villaescusa-Navarro}, F., {Castorina}, E., \& {Viel}, M. 2016,
+  ArXiv e-prints, arXiv:1610.05768
+
+\bibitem[{{Padmanabhan} {et~al.}(2009){Padmanabhan}, {White}, \&
+  {Cohn}}]{Padmanabhan09}
+{Padmanabhan}, N., {White}, M., \& {Cohn}, J.~D. 2009, \bibprd, 79, 063523
+
+\bibitem[{{Padmanabhan} {et~al.}(2012){Padmanabhan}, {Xu}, {Eisenstein},
+  {Scalzo}, {Cuesta}, {Mehta}, \& {Kazin}}]{Padmanabhan12}
+{Padmanabhan}, N., {Xu}, X., {Eisenstein}, D.~J., {et~al.} 2012, \bibmnras,
+  427, 2132
+
+\bibitem[{{Pan} {et~al.}(2016){Pan}, {Pen}, {Inman}, \& {Yu}}]{panqy16}
+{Pan}, Q., {Pen}, U.-L., {Inman}, D., \& {Yu}, H.-R. 2016, ArXiv e-prints,
+  arXiv:1611.10013
+
+\bibitem[{{Pen}(1995)}]{Pen95}
+{Pen}, U.-L. 1995, \bibapjs, 100, 269
+
+\bibitem[{{Pen}(1998)}]{Pen98}
+---. 1998, \bibapjs, 115, 19
+
+\bibitem[{{Rimes} \& {Hamilton}(2005)}]{Rimes05}
+{Rimes}, C.~D., \& {Hamilton}, A.~J.~S. 2005, \bibmnras, 360, L82
+
+\bibitem[{{Rimes} \& {Hamilton}(2006)}]{Rimes06}
+---. 2006, \bibmnras, 371, 1205
+
+\bibitem[{{Ross} {et~al.}(2015){Ross}, {Samushia}, {Howlett}, {Percival},
+  {Burden}, \& {Manera}}]{Ross15}
+{Ross}, A.~J., {Samushia}, L., {Howlett}, C., {et~al.} 2015, \bibmnras, 449,
+  835
+
+\bibitem[{{Schmittfull} {et~al.}(2015){Schmittfull}, {Feng}, {Beutler},
+  {Sherwin}, \& {Chu}}]{Schmittfull15}
+{Schmittfull}, M., {Feng}, Y., {Beutler}, F., {Sherwin}, B., \& {Chu}, M.~Y.
+  2015, \bibprd, 92, 123522
+
+\bibitem[{{Seo} {et~al.}(2016){Seo}, {Beutler}, {Ross}, \& {Saito}}]{Seo16}
+{Seo}, H.-J., {Beutler}, F., {Ross}, A.~J., \& {Saito}, S. 2016, \bibmnras,
+  460, 2453
+
+\bibitem[{{Seo} {et~al.}(2008){Seo}, {Siegel}, {Eisenstein}, \&
+  {White}}]{Seo08}
+{Seo}, H.-J., {Siegel}, E.~R., {Eisenstein}, D.~J., \& {White}, M. 2008,
+  \bibapj, 686, 13
+
+\bibitem[{{Seo} {et~al.}(2010){Seo}, {Eckel}, {Eisenstein}, {Mehta},
+  {Metchnik}, {Padmanabhan}, {Pinto}, {Takahashi}, {White}, \& {Xu}}]{Seo10}
+{Seo}, H.-J., {Eckel}, J., {Eisenstein}, D.~J., {et~al.} 2010, \bibapj, 720,
+  1650
+
+\bibitem[{{Takada} {et~al.}(2014){Takada}, {Ellis}, {Chiba}, {Greene},
+  {Aihara}, {Arimoto}, {Bundy}, {Cohen}, {Dor{\'e}}, {Graves}, {Gunn},
+  {Heckman}, {Hirata}, {Ho}, {Kneib}, {F{\`e}vre}, {Lin}, {More}, {Murayama},
+  {Nagao}, {Ouchi}, {Seiffert}, {Silverman}, {Sodr{\'e}}, {Spergel}, {Strauss},
+  {Sugai}, {Suto}, {Takami}, \& {Wyse}}]{PFScosmology}
+{Takada}, M., {Ellis}, R.~S., {Chiba}, M., {et~al.} 2014, \bibpasj, 66, R1
+
+\bibitem[{{Taruya} {et~al.}(2009){Taruya}, {Nishimichi}, {Saito}, \&
+  {Hiramatsu}}]{Taruya09}
+{Taruya}, A., {Nishimichi}, T., {Saito}, S., \& {Hiramatsu}, T. 2009, \bibprd,
+  80, 123503
+
+\bibitem[{{White}(2015)}]{White15}
+{White}, M. 2015, \bibmnras, 450, 3822
+
+\bibitem[{{Xu} {et~al.}(2013){Xu}, {Cuesta}, {Padmanabhan}, {Eisenstein}, \&
+  {McBride}}]{xuxy13}
+{Xu}, X., {Cuesta}, A.~J., {Padmanabhan}, N., {Eisenstein}, D.~J., \&
+  {McBride}, C.~K. 2013, \bibmnras, 431, 2834
+
+\bibitem[{{Yu} {et~al.}(2016){Yu}, {Pen}, \& {Zhu}}]{yuhr16}
+{Yu}, H.-R., {Pen}, U.-L., \& {Zhu}, H.-M. 2016, ArXiv e-prints,
+  arXiv:1610.07112
+
+\bibitem[{{Zhu} {et~al.}(2016{\natexlab{a}}){Zhu}, {Pen}, \& {Chen}}]{zhuhm16a}
+{Zhu}, H.-M., {Pen}, U.-L., \& {Chen}, X. 2016{\natexlab{a}}, ArXiv e-prints,
+  arXiv:1609.07041
+
+\bibitem[{{Zhu} {et~al.}(2016{\natexlab{b}}){Zhu}, {Yu}, {Pen}, {Chen}, \&
+  {Yu}}]{zhuhm16c}
+{Zhu}, H.-M., {Yu}, Y., {Pen}, U.-L., {Chen}, X., \& {Yu}, H.-R.
+  2016{\natexlab{b}}, ArXiv e-prints, arXiv:1611.09638
+
+\end{thebibliography}
