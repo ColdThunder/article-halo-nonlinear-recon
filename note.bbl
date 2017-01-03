@@ -19,6 +19,23 @@
 {Anderson}, L., {Aubourg}, {\'E}., {Bailey}, S., {et~al.} 2014, \bibmnras, 441,
   24
 
+\bibitem[{{Bandura} {et~al.}(2014){Bandura}, {Addison}, {Amiri}, {Bond},
+  {Campbell-Wilson}, {Connor}, {Cliche}, {Davis}, {Deng}, {Denman}, {Dobbs},
+  {Fandino}, {Gibbs}, {Gilbert}, {Halpern}, {Hanna}, {Hincks}, {Hinshaw},
+  {H{\"o}fer}, {Klages}, {Landecker}, {Masui}, {Mena Parra}, {Newburgh}, {Pen},
+  {Peterson}, {Recnik}, {Shaw}, {Sigurdson}, {Sitwell}, {Smecher}, {Smegal},
+  {Vanderlinde}, \& {Wiebe}}]{Bandura14}
+{Bandura}, K., {Addison}, G.~E., {Amiri}, M., {et~al.} 2014, in \procspie, Vol.
+  9145, Ground-based and Airborne Telescopes V, 914522
+
+\bibitem[{{Battye} {et~al.}(2016){Battye}, {Browne}, {Chen}, {Dickinson},
+  {Harper}, {Olivari}, {Peel}, {Remazeilles}, {Roychowdhury}, {Wilkinson},
+  {Abdalla}, {Abramo}, {Ferreira}, {Wuensche}, {Vilella}, {Caldas}, {Tancredi},
+  {Refregier}, {Monstein}, {Abdalla}, {Pourtsidou}, {Maffei}, {Pisano}, \&
+  {Ma}}]{BINGO16}
+{Battye}, R., {Browne}, I., {Chen}, T., {et~al.} 2016, ArXiv e-prints,
+  arXiv:1610.06826
+
 \bibitem[{{Beutler} {et~al.}(2016){Beutler}, {Blake}, {Koda}, {Mar{\'{\i}}n},
   {Seo}, {Cuesta}, \& {Schneider}}]{Beutler16}
 {Beutler}, F., {Blake}, C., {Koda}, J., {et~al.} 2016, \bibmnras, 455, 3230
@@ -33,6 +50,11 @@
 
 \bibitem[{{Carron} \& {Neyrinck}(2012)}]{Carron12a}
 {Carron}, J., \& {Neyrinck}, M.~C. 2012, \bibapj, 750, 28
+
+\bibitem[{{Cautun} \& {van de Weygaert}(2011)}]{Cautun11}
+{Cautun}, M.~C., \& {van de Weygaert}, R. 2011, {The DTFE public software: The
+  Delaunay Tessellation Field Estimator code},  Astrophysics Source Code
+  Library, arXiv:1105.0370
 
 \bibitem[{{Crocce} \& {Scoccimarro}(2006)}]{Crocce06}
 {Crocce}, M., \& {Scoccimarro}, R. 2006, \bibprd, 73, 063520
@@ -91,6 +113,15 @@
 {Hinton}, S.~R., {Kazin}, E., {Davis}, T.~M., {et~al.} 2017, \bibmnras, 464,
   4807
 
+\bibitem[{{Jones} {et~al.}(2009){Jones}, {Read}, {Saunders}, {Colless},
+  {Jarrett}, {Parker}, {Fairall}, {Mauch}, {Sadler}, {Watson}, {Burton},
+  {Campbell}, {Cass}, {Croom}, {Dawe}, {Fiegert}, {Frankcombe}, {Hartley},
+  {Huchra}, {James}, {Kirby}, {Lahav}, {Lucey}, {Mamon}, {Moore}, {Peterson},
+  {Prior}, {Proust}, {Russell}, {Safouris}, {Wakamatsu}, {Westra}, \&
+  {Williams}}]{6dFGS-DR3}
+{Jones}, D.~H., {Read}, M.~A., {Saunders}, W., {et~al.} 2009, \bibmnras, 399,
+  683
+
 \bibitem[{{Kazin} {et~al.}(2014){Kazin}, {Koda}, {Blake}, {Padmanabhan},
   {Brough}, {Colless}, {Contreras}, {Couch}, {Croom}, {Croton}, {Davis},
   {Drinkwater}, {Forster}, {Gilbank}, {Gladders}, {Glazebrook}, {Jelliffe},
@@ -104,6 +135,17 @@
 \bibitem[{{Mehta} {et~al.}(2011){Mehta}, {Seo}, {Eckel}, {Eisenstein},
   {Metchnik}, {Pinto}, \& {Xu}}]{Mehta11}
 {Mehta}, K.~T., {Seo}, H.-J., {Eckel}, J., {et~al.} 2011, \bibapj, 734, 94
+
+\bibitem[{{Newburgh} {et~al.}(2016){Newburgh}, {Bandura}, {Bucher}, {Chang},
+  {Chiang}, {Cliche}, {Dav{\'e}}, {Dobbs}, {Clarkson}, {Ganga}, {Gogo},
+  {Gumba}, {Gupta}, {Hilton}, {Johnstone}, {Karastergiou}, {Kunz}, {Lokhorst},
+  {Maartens}, {Macpherson}, {Mdlalose}, {Moodley}, {Ngwenya}, {Parra},
+  {Peterson}, {Recnik}, {Saliwanchik}, {Santos}, {Sievers}, {Smirnov},
+  {Stronkhorst}, {Taylor}, {Vanderlinde}, {Van Vuuren}, {Weltman}, \&
+  {Witzemann}}]{HIRAX16}
+{Newburgh}, L.~B., {Bandura}, K., {Bucher}, M.~A., {et~al.} 2016, in \procspie,
+  Vol. 9906, Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series, 99065X
 
 \bibitem[{{Neyrinck} {et~al.}(2006){Neyrinck}, {Szapudi}, \&
   {Rimes}}]{Neyrinck06}
@@ -198,5 +240,8 @@
   {Yu}}]{zhuhm16c}
 {Zhu}, H.-M., {Yu}, Y., {Pen}, U.-L., {Chen}, X., \& {Yu}, H.-R.
   2016{\natexlab{b}}, ArXiv e-prints, arXiv:1611.09638
+
+\bibitem[{{Zhu et al.}(2017)}]{zhuhmprep}
+{Zhu et al.} 2017, {in prep.}
 
 \end{thebibliography}
