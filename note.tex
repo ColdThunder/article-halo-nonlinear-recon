@@ -382,10 +382,11 @@ From top to bottom, the input field is DM density field, halo fields with number
 %%%%%%%%%%%%%%%
 \begin{figure}
 \epsfxsize=8.5cm
-\epsffile{decomtotpk.eps}
+\epsffile{decomtotpk-ngp.eps}
 \caption{The power spectrum decomposition for the input (red) and reconstructed (blue) field.
 The linear signal term is presented in solid line, while the noise term in dotted line.
-The expected shot noise, $1/n_h$, is plotted in dashed line.
+All the results are scaled so that the total power equals to the halo power spectrum with familiar NGP mass assginment.
+The expected shot noise for NGP mass assignment, $1/n_h$, is also plotted in dashed line.
 From top to bottom, the input halo field has number density of $2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.
 The downward arrows indicate the scale where the signal term equals the noise term.}
 \label{fig:decom}
@@ -446,15 +447,22 @@ in which $P_s(k)=C^2(k)P_{\delta_L}(k)$ is the linear signal term.
 The lower limit in scale where the BAO signal could be robustly measured is quantified by the scale where the linear signal term equals the noise term.
 
 We present the power spectrum decomposition Equation (\ref{eqn:powerdecom}) for both the input halo fields and the reconstructed fields in Figure \ref{fig:decom}.
+The results are scaled so that the total power $P_s(k)+P_n(k)$ equals the halo power spectrum with familiar NGP mass assignment, to better explain the results.
 The reconstructed field not only has larger linear signal term, but also has lower noise term than the input field.
 The downward arrows indicate the scale where the linear signal term equals to the noise term.
 We clearly see the decrease of the scale (increase in $k$) by the reconstruction process.
 The improvement reaches a factor of 2.29, 1.69 and 1.15 for $n_h=2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.
 Specifically, for the most concern case, this scale is decreased from $k=0.16$ to $0.36\ \hmpc$.
 
-We also present the expected shot noise power spectrum in Figure \ref{fig:decom}.
-We find that for the reconstructed fields, the scale where the linear signal term equals to the noise term is smaller than the scale where shot noise dominates over the linear signal.
-This implies that the recovering of cosmic information is down to the Poisson noise limit.
+Note that the noise term has two contributions, one from the nonlinear clustering and another from the shot noise.
+We present the expected shot noise power spectrum for NGP mass assignment in Figure \ref{fig:decom}.
+For the highest number density case (top panel), the noise term of the input field exceeds the expected shot noise contribution a lot.
+This implies that the nonlinear clustering domintes over the shot noise.
+After the reconstruciton, linear signal is recovered and meanwhile the nonlinear clustering is suppressed.
+Thus, the nonlinear reconstruction is powerful for this case.
+For the lowest number density case (bottom panel), the noise term of the input field is dominated by the shot noise.
+The halo field with such a low numder density is almostly the combination of the linear signal plus the Poisson noise.
+In this case, there is no usable nonlinear information and the reconstruction performance is limited.
 
 In Figure \ref{fig:ccnh}, we present the comparison of cross-correlation coefficient for various input and reconstructed fields, including the DM field and halo samples with $n_h=2.77\times 10^{-2}$ and $2.77\times 10^{-3}$ $(\mpch)^{-3}$.
 These three input fields have similar coherence with the initial condition.
