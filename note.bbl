@@ -5,6 +5,22 @@
 \bibitem[{{Achitouv} \& {Blake}(2015)}]{Achitouv15}
 {Achitouv}, I., \& {Blake}, C. 2015, \bibprd, 92, 083523
 
+\bibitem[{{Alam} {et~al.}(2016){Alam}, {Ata}, {Bailey}, {Beutler}, {Bizyaev},
+  {Blazek}, {Bolton}, {Brownstein}, {Burden}, {Chuang}, {Comparat}, {Cuesta},
+  {Dawson}, {Eisenstein}, {Escoffier}, {Gil-Mar{\'{\i}}n}, {Grieb}, {Hand},
+  {Ho}, {Kinemuchi}, {Kirkby}, {Kitaura}, {Malanushenko}, {Malanushenko},
+  {Maraston}, {McBride}, {Nichol}, {Olmstead}, {Oravetz}, {Padmanabhan},
+  {Palanque-Delabrouille}, {Pan}, {Pellejero-Ibanez}, {Percival}, {Petitjean},
+  {Prada}, {Price-Whelan}, {Reid}, {Rodr{\'{\i}}guez-Torres}, {Roe}, {Ross},
+  {Ross}, {Rossi}, {Rubi{\~n}o-Mart{\'{\i}}n}, {S{\'a}nchez}, {Saito},
+  {Salazar-Albornoz}, {Samushia}, {Satpathy}, {Sc{\'o}ccola}, {Schlegel},
+  {Schneider}, {Seo}, {Simmons}, {Slosar}, {Strauss}, {Swanson}, {Thomas},
+  {Tinker}, {Tojeiro}, {Vargas Maga{\~n}a}, {Vazquez}, {Verde}, {Wake}, {Wang},
+  {Weinberg}, {White}, {Wood-Vasey}, {Y{\`e}che}, {Zehavi}, {Zhai}, \&
+  {Zhao}}]{BOSScomplete}
+{Alam}, S., {Ata}, M., {Bailey}, S., {et~al.} 2016, ArXiv e-prints,
+  arXiv:1607.03155
+
 \bibitem[{{Anderson} {et~al.}(2014){Anderson}, {Aubourg}, {Bailey}, {Beutler},
   {Bhardwaj}, {Blanton}, {Bolton}, {Brinkmann}, {Brownstein}, {Burden},
   {Chuang}, {Cuesta}, {Dawson}, {Eisenstein}, {Escoffier}, {Gunn}, {Guo}, {Ho},
@@ -36,6 +52,9 @@
 {Battye}, R., {Browne}, I., {Chen}, T., {et~al.} 2016, ArXiv e-prints,
   arXiv:1610.06826
 
+\bibitem[{{Bernardeau} \& {van de Weygaert}(1996)}]{Bernardeau96}
+{Bernardeau}, F., \& {van de Weygaert}, R. 1996, \bibmnras, 279, 693
+
 \bibitem[{{Beutler} {et~al.}(2016){Beutler}, {Blake}, {Koda}, {Mar{\'{\i}}n},
   {Seo}, {Cuesta}, \& {Schneider}}]{Beutler16}
 {Beutler}, F., {Blake}, C., {Koda}, J., {et~al.} 2016, \bibmnras, 455, 3230
@@ -61,35 +80,6 @@
 
 \bibitem[{{Crocce} \& {Scoccimarro}(2008)}]{Crocce08}
 ---. 2008, \bibprd, 77, 023533
-
-\bibitem[{{Dawson} {et~al.}(2013){Dawson}, {Schlegel}, {Ahn}, {Anderson},
-  {Aubourg}, {Bailey}, {Barkhouser}, {Bautista}, {Beifiori}, {Berlind},
-  {Bhardwaj}, {Bizyaev}, {Blake}, {Blanton}, {Blomqvist}, {Bolton}, {Borde},
-  {Bovy}, {Brandt}, {Brewington}, {Brinkmann}, {Brown}, {Brownstein}, {Bundy},
-  {Busca}, {Carithers}, {Carnero}, {Carr}, {Chen}, {Comparat}, {Connolly},
-  {Cope}, {Croft}, {Cuesta}, {da Costa}, {Davenport}, {Delubac}, {de Putter},
-  {Dhital}, {Ealet}, {Ebelke}, {Eisenstein}, {Escoffier}, {Fan}, {Filiz Ak},
-  {Finley}, {Font-Ribera}, {G{\'e}nova-Santos}, {Gunn}, {Guo}, {Haggard},
-  {Hall}, {Hamilton}, {Harris}, {Harris}, {Ho}, {Hogg}, {Holder}, {Honscheid},
-  {Huehnerhoff}, {Jordan}, {Jordan}, {Kauffmann}, {Kazin}, {Kirkby}, {Klaene},
-  {Kneib}, {Le Goff}, {Lee}, {Long}, {Loomis}, {Lundgren}, {Lupton}, {Maia},
-  {Makler}, {Malanushenko}, {Malanushenko}, {Mandelbaum}, {Manera}, {Maraston},
-  {Margala}, {Masters}, {McBride}, {McDonald}, {McGreer}, {McMahon}, {Mena},
-  {Miralda-Escud{\'e}}, {Montero-Dorta}, {Montesano}, {Muna}, {Myers},
-  {Naugle}, {Nichol}, {Noterdaeme}, {Nuza}, {Olmstead}, {Oravetz}, {Oravetz},
-  {Owen}, {Padmanabhan}, {Palanque-Delabrouille}, {Pan}, {Parejko},
-  {P{\^a}ris}, {Percival}, {P{\'e}rez-Fournon}, {P{\'e}rez-R{\`a}fols},
-  {Petitjean}, {Pfaffenberger}, {Pforr}, {Pieri}, {Prada}, {Price-Whelan},
-  {Raddick}, {Rebolo}, {Rich}, {Richards}, {Rockosi}, {Roe}, {Ross}, {Ross},
-  {Rossi}, {Rubi{\~n}o-Martin}, {Samushia}, {S{\'a}nchez}, {Sayres}, {Schmidt},
-  {Schneider}, {Sc{\'o}ccola}, {Seo}, {Shelden}, {Sheldon}, {Shen}, {Shu},
-  {Slosar}, {Smee}, {Snedden}, {Stauffer}, {Steele}, {Strauss}, {Streblyanska},
-  {Suzuki}, {Swanson}, {Tal}, {Tanaka}, {Thomas}, {Tinker}, {Tojeiro},
-  {Tremonti}, {Vargas Maga{\~n}a}, {Verde}, {Viel}, {Wake}, {Watson}, {Weaver},
-  {Weinberg}, {Weiner}, {West}, {White}, {Wood-Vasey}, {Yeche}, {Zehavi},
-  {Zhao}, \& {Zheng}}]{BOSS}
-{Dawson}, K.~S., {Schlegel}, D.~J., {Ahn}, C.~P., {et~al.} 2013, \bibaj, 145,
-  10
 
 \bibitem[{{DESI Collaboration} {et~al.}(2016){DESI Collaboration}, {Aghamousa},
   {Aguilar}, {Ahlen}, {Alam}, {Allen}, {Allende Prieto}, {Annis}, {Bailey},
@@ -220,6 +210,12 @@
 {Taruya}, A., {Nishimichi}, T., {Saito}, S., \& {Hiramatsu}, T. 2009, \bibprd,
   80, 123503
 
+\bibitem[{{van de Weygaert} \& {Schaap}(2009)}]{van-de-Weygaert09}
+{van de Weygaert}, R., \& {Schaap}, W. 2009, in Lecture Notes in Physics,
+  Berlin Springer Verlag, Vol. 665, Data Analysis in Cosmology, ed. V.~J.
+  {Mart{\'{\i}}nez}, E.~{Saar}, E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, \& M.-J.
+  {Pons-Border{\'{\i}}a}, 291--413
+
 \bibitem[{{White}(2015)}]{White15}
 {White}, M. 2015, \bibmnras, 450, 3822
 
@@ -240,8 +236,5 @@
   {Yu}}]{zhuhm16c}
 {Zhu}, H.-M., {Yu}, Y., {Pen}, U.-L., {Chen}, X., \& {Yu}, H.-R.
   2016{\natexlab{b}}, ArXiv e-prints, arXiv:1611.09638
-
-\bibitem[{{Zhu et al.}(2017)}]{zhuhmprep}
-{Zhu et al.} 2017, {in prep.}
 
 \end{thebibliography}

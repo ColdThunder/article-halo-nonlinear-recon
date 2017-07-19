@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: note.aux
+The style file: aasjournal.bst
+Database file #1: noteNotes.bib
+Database file #2: yuyu.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 44 entries,
+            3222 wiz_defined-function locations,
+            993 strings with 19678 characters,
+and the built_in function-call counts, 24338 in all, are:
+= -- 1692
+> -- 2398
+< -- 16
++ -- 799
+- -- 854
+* -- 2331
+:= -- 4568
+add.period$ -- 44
+call.type$ -- 44
+change.case$ -- 253
+chr.to.int$ -- 43
+cite$ -- 44
+duplicate$ -- 836
+empty$ -- 1297
+format.name$ -- 909
+if$ -- 4766
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 40
+newline$ -- 137
+num.names$ -- 177
+pop$ -- 383
+preamble$ -- 1
+purify$ -- 253
+quote$ -- 0
+skip$ -- 646
+stack$ -- 0
+substring$ -- 764
+swap$ -- 40
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 396
+warning$ -- 0
+while$ -- 157
+width$ -- 0
+write$ -- 445

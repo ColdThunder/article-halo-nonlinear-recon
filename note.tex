@@ -90,7 +90,7 @@ Gravitation and Cosmology, Toronto, Ontario M5G 1Z8, Canada}
 \altaffiltext{7}{Perimeter Institute for Theoretical Physics, 31 Caroline Street North, Waterloo, Ontario, N2L 2Y5, Canada}
 
 \begin{abstract}
-We apply the nonlinear density reconstruction method (\citet{zhuhm16c}) to simulated halo fields.  For halo number density $2.77\times 10^{-2}$ $(\mpch)^{-3}$ at $z=0$, corresponding to the SDSS main sample density, we find the scale where the noise saturates the linear signal is improved to $k\gtrsim0.36\ \hmpc$, a factor of $2.29$ improvement in scale, or $12$ in number of linear modes.  The improvement is less for higher redshift or lower halo density. We expect this to substantially improve the BAO accuracy of dense, low redshift surveys, including the SDSS main sample, 6dFGS and 21cm intensity mapping initiatives.
+We apply the nonlinear reconstruction method (Zhu \etal, arXiv:1611.09638) to simulated halo fields.  For halo number density $2.77\times 10^{-2}$ $(\mpch)^{-3}$ at $z=0$, corresponding to the SDSS main sample density, we find the scale where the noise saturates the linear signal is improved to $k\gtrsim0.36\ \hmpc$, a factor of $2.29$ improvement in scale, or $12$ in number of linear modes.  The improvement is less for higher redshift or lower halo density. We expect this to substantially improve the BAO accuracy of dense, low redshift surveys, including the SDSS main sample, 6dFGS and 21cm intensity mapping initiatives.
 %We extend the performance tests of the non-parametrical linear density reconstruction method proposed by  to the simulated halo fields, with halo number density of $2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$ and for three redshifts, $z=0$, $0.5$ and $1$.  We find the scale where the noise saturates the linear signal is decreased to $k\gtrsim0.36\ \hmpc$, a factor of 2.29 improvement, for the highest density case at $z=0$.
 %This implies the great potential to robustly measure the baryon acoustic oscillation signal from the dense large-scale structure surveys, for example, the Sloan Digital Sky Survey main galaxy sample.
 \end{abstract}
@@ -106,7 +106,7 @@ We apply the nonlinear density reconstruction method (\citet{zhuhm16c}) to simul
 Measuring the expansion history and structure growth has been a major focus of modern observational cosmology.
 A lot of information about our Universe is being decoded from the current surveys, like BOSS 
 %\footnote{BOSS, http://www.sdss.org/surveys/boss/} 
-(\cite{BOSS}),
+(\cite{BOSScomplete}),
 6dFGS (\cite{6dFGS-DR3}), and etc.
 %\footnote{http://www.6dfgs.net}
 Ambitious on-going and future surveys, like eBOSS\footnote{eBOSS, http://www.sdss.org/surveys/eboss/}, DESI 
@@ -135,18 +135,20 @@ It also prevents a simple mapping from the final state to the initial conditions
 As a result, a large portion of the cosmic information is encoded into complicated high-order statistics, and even worse, some of them is lost (e.g., \cite{Rimes05,Rimes06,Neyrinck06,Carron12a}).
 
 A part of the information loss could be recovered by a process known as ``reconstruction'' (e.g., \citet{Eisenstein07}).
-The nonlinear density field is smoothed on the linear scale ($\sim 10 \mpch$) to make the Zel'dovich approximation valid.
-The linear displacement is estimated and used to move both the galaxy and a random sample back.
-The reconstructed field has sharper BAO peak, leading to more stringent cosmological parameter constraints.
-In the literatures, this reconstruction method was theoretically understood and modeled (e.g., \cite{Padmanabhan09}, \cite{Noh09}, \cite{White15}, \cite{Seo16}), tested against numerical simulations (e.g., \cite{Seo08}, \cite{Seo10}, \cite{Mehta11}, \cite{Achitouv15}, \cite{Schmittfull15}, \cite{Obuljen16}), and applied on observations (e.g., {\cite{Padmanabhan12}, \cite{xuxy13}, \cite{Anderson14}, \cite{Kazin14}, \cite{Ross15}, \cite{Beutler16}, \cite{Hinton17}, \cite{Beutler17}) extensively.
+The nonlinear density field is smoothed on the linear scale ($\sim 10\ \mpch$) to make the Zel'dovich approximation valid.
+The linear displacement is estimated and used to move the galaxies back and to move a random sample in the same way.
+These two new fields form the reconstructed density field,
+which has a sharper BAO peak, leading to more stringent cosmological parameter constraints.
+{\bf We call the above reconstruction method as ``the standard reconstruction method''.}
+In the literatures, this standard reconstruction method was theoretically understood and modeled (e.g., \cite{Padmanabhan09}, \cite{Noh09}, \cite{White15}, \cite{Seo16}), tested against numerical simulations (e.g., \cite{Seo08}, \cite{Seo10}, \cite{Mehta11}, \cite{Achitouv15}, \cite{Schmittfull15}, \cite{Obuljen16}), and applied on observations (e.g., {\cite{Padmanabhan12}, \cite{xuxy13}, \cite{Anderson14}, \cite{Kazin14}, \cite{Ross15}, \cite{Beutler16}, \cite{Hinton17}, \cite{Beutler17}) extensively.
 
 \citet{zhuhm16c} presented a direct approach to non-parametrically reconstruct the linear density field,
 by solving for a unique displacement potential consistent with the nonlinear density map and positive definite coordinate transformation.
-Different from \citet{Eisenstein07}, the reconstructed displacement is not used to move the galaxy position.
-The reconstructed density field is directly derived by the negative divergence of the reconstructed displacement.
+Different from \citet{Eisenstein07}, the reconstructed (nonlinear) displacement is not used to move the galaxy positions.
+Instead, the reconstructed density field is directly derived by the negative divergence of the reconstructed displacement.
 Hereafter, we call this reconstruction process as {\it nonlinear reconstruction}.
-\citet{zhuhm16c} found that the reconstructed density field recovers the coherence with linear initial conditions up to $k\sim 1\ \hmpc$, a factor of $\sim 6$ improvement in scale compared to the nonlinear density field.
-The information content is also increased by a factor of $\sim 50$ after the nonlinear reconstruction (see \citet{panqy16}).
+Using the simulated dark matter density field, \citet{zhuhm16c} found that the reconstructed density field recovers the coherence with linear initial conditions up to $k\sim 1\ \hmpc$, a factor of $\sim 6$ improvement in scale compared to the nonlinear density field.
+The information content is also found to be increased by a factor of $\sim 50$ after the nonlinear reconstruction (see \citet{panqy16}).
 \cite{yuhr16} quantified the limits of all Lagrangian reconstruction methods by measuring the correlations in Lagrangian space (i.e., the correlations between the initial displacement and final displacement) in simulation.
 
 Nonlinear reconstruction generalizes the application of linear displacement theory to fully non-linear fields, potentially substantially expanding the BAO and redshift space distortions (RSD) information content of dense large-scale structure surveys.
@@ -163,51 +165,21 @@ We summarize the result and discuss future directions in Sect. \ref{sec:conclusi
 %%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%
 
-\section{Reconstruction}
+\section{Reconstruction Algorithm}
 \label{sec:recon}
 
-\subsection{Displacement}
-\label{sec:ebdecom}
-
-We are aiming at reconstructing a density field with more linear information.
-Actually, the reconstructed density field is a byproduct of the reconstruction method proposed by \cite{zhuhm16c}, which non-parametrically reconstructs the unobservable nonlinear displacement.
-
-In Lagrangian scenario of structure formation, the displacement field $\vecPsi(\vecq,t)$ describes the total motion at time $t$ for each mass element starting from the initial Lagrangian position $\vecq$.
-
-The displacement field, as a vector field, could be uniquely decomposed into a gradient part and a curl part.
-\be
-\vecPsi(\vecq)=\vecPsi_E(\vecq)+\vecPsi_B(\vecq)\ ,
-\ee
-where $\nabla\times\vecPsi_E=\bold{0}$ and $\nabla\cdot\vecPsi_B=0$.
-One could further decompose the $E$-mode component into a linear part and a nonlinear part,
-in which the linear part is completely correlated with the linear displacement and the nonlinear part is the remaining.  This physically motivated decomposition helps to understand the displacement field.
-
-In the nonlinear regime, shell crossing happens.
-Mass elements lost their memory on the initial positions.
-This process generates the nonlinear and $B$-mode component in the displacement field.
-However, the final displacement is still dominated by the linear part.
-The $B$-mode and nonlinear part only fine-tune the final position (\cite{zhuhmprep}, in prep.).
-Thus, a unique displacement potential solution consistent with the nonlinear density field and positive definite coordinate transformation is expected to be a good approximation for the nonlinear displacement field (\cite{zhuhm16c}).
-
-%Compared to the density field, displacement suffers much less from the nonlinear effects.
-%Thus, modelling the cosmic evolution in Lagrangian scenario is well developed recently {\bf citecite}.
-The reconstructed displacement field is potentially very useful in cosmology
-and the reconstruction of the linear density field is the first application.
-Further applications include RSD modelling, peculiar velocity reconstruction, and etc (\cite{zhuhm16c}).
-
-\subsection{Nonlinear reconstruction}
-\label{sec:algorithm}
+%\subsection{Nonlinear reconstruction}
+%\label{sec:algorithm}
 
 The basic idea of the reconstruction is to build a bijective curvilinear coordinate system $\vecxi\equiv(\xi_1,\xi_2,
-\xi_3)=\vecxi(\vecx)$, where the mass per volume element is constant,
+\xi_3)$, where the mass per volume element is constant,
 \be
 \rho(\vecxi)\dif^3\vecxi={\rm constant}\ .
 \ee
-Here, $\sqrt{g}=\det(e^i_\mu)$ is the Jabobian of the transformation matrix $e^i_\mu=\partial x^i/\partial\xi^\mu$.
-Latin indices denote Cartesian coordinate labels $x^i$, while Greek indices denote the curvilinear coordinates $\xi^\mu$.
-We call this curvilinear coordinate system as {\it potential mass gauge (coordinate)}.
+We call this curvilinear coordinate system as {\it potential isobaric gauge/coordinates}.
 It becomes analogous to ``synchronous gauge'' and ``Lagrangian coordinates'' before shell crossing, but allows a unique mapping even after shell crossing.
-In this scenario, the mass element at final physical position $\vecx$ comes from the estimated initial Lagrangian position given by the potential mass coordinate $\vecxi$.
+In this scenario, the mass element at final physical position $\vecx$ comes from the estimated initial Lagrangian position given by the potential isobaric coordinate $\vecxi$.
+In the following, we use Latin indices to denote Cartesian coordinate labels $x^i$, while Greek indices to denote the curvilinear coordinates $\xi^\mu$.
 
 Since we attempt to follow the potential flow instead of the vorticity, we define a coordinate transformation that is a pure gradient,
 \be
@@ -229,7 +201,7 @@ The evolution of the curvilinear coordinate system is determined by a linear ell
 \partial_\mu(\rho\sqrt{g}e^\mu_i\delta^{i\nu}\partial_\nu\dot\phi)=\Delta\rho\ ,
 \label{eqn:elliptic}
 \ee
-where $\Delta\rho=\bar\rho-\rho\sqrt{g}$.
+where $\sqrt{g}=\det(e^i_\mu)$ is the Jabobian of the transformation matrix $e^i_\mu=\partial x^i/\partial\xi^\mu$ and $\Delta\rho=\bar\rho-\rho\sqrt{g}$.
 The time derivative here is relative to the iteration step.
 We obtain the change of the displacement potential $\Delta\phi=\dot\phi\Delta t$ at each iteration step and then update the density field in the new coordinate frame.
 The final solution is given by 
@@ -238,20 +210,33 @@ The final solution is given by
 \ee
 where $\Delta\phi^{(i)}$ is the result from the $i$th iteration.
 We also implement the smoothing and limiting schemes to guarantee the triad $e^\mu_i$ is positive definite at each step.
-See \cite{zhuhm16c} for a simple physical interpretation of Equation (\ref{eqn:elliptic}).
+{\bf Note that different from the smoothing kernel used in the standard reconstruction method, this smoothing is to keep the algorithm stable at each step and only influences the efficiency of the algorithm but not the final result of the reconstruction.}
 The elliptic equation can be solved using the multigrid algorithm described also in \cite{Pen95}.
 
 The above process ensures that the coordinate transform is positive definite.
 The coordinate lines will not cross and the eigenvalues for this coordinate transform are always positive.
-In the case that particles follow a irrotational potential flow and no shell crossing happens,
+For the reconstruction from the dark matter density field and in the case that dark matter particles follow a irrotational potential flow and no shell crossing happens,
  the reconstructed displacement is exact up to a global spatial translation.
-However, shell crossing happens in the nonlinear regime.  This reconstruction algorithm gives an approximate solution.
+However, shell crossing happens in the nonlinear regime.  This reconstruction algorithm gives an approximate solution to the true displacement.
 
+We are aiming at reconstructing a density field with more linear information.
 We define the negative Laplacian of the reconstructed displacement potential as the {\it reconstructed density field},
 \be
+\label{eqn:recon}
 \delta_r(\vecxi)\equiv-\nabla_\vecxi\cdot\Delta\vecx(\vecxi)=-\nabla_\vecxi^2\phi\ .
 \ee
+See \cite{zhuhm16c} for a more detailed physical interpretation of this reconstruction process and the relation with \cite{Eisenstein07}.
 
+%Actually, the reconstructed density field is a byproduct of the reconstruction method proposed by \cite{zhuhm16c}, which non-parametrically reconstructs the unobservable nonlinear displacement.
+%In the nonlinear regime, shell crossing happens.
+%Mass elements lost their memory on the initial positions.
+%This process generates the nonlinear and $B$-mode component in the displacement field.
+%However, the final displacement is still dominated by the linear part.
+%The $B$-mode and nonlinear part only fine-tune the final position (\cite{zhuhmprep}, in prep.).
+%Thus, a unique displacement potential solution consistent with the nonlinear density field and positive definite coordinate transformation is expected to be a good approximation for the nonlinear displacement field (\cite{zhuhm16c}).
+%The reconstructed displacement field is potentially very useful in cosmology
+%and the reconstruction of the linear density field is the first application.
+%Further applications include RSD modelling, peculiar velocity reconstruction, and etc (\cite{zhuhm16c}).
 
 %%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%
@@ -263,59 +248,39 @@ We define the negative Laplacian of the reconstructed displacement potential as 
 \label{sec:massassign}
 
 %%%%%%%%%%%%%%%
-\begin{table}
+\begin{table*}
 \begin{tabular}{c|c|c|c||c}
 \hline\hline
-$n_h$ & $2.77\times 10^{-2}$ & $2.77\times 10^{-3}$ & $2.77\times 10^{-4}$ & $M_{\rm max}$\\
+$M_{\rm max}$, $b$ & $n_h=2.77\times 10^{-2} (\mpch)^{-3}$ & $n_h=2.77\times 10^{-3} (\mpch)^{-3}$ & $n_h=2.77\times 10^{-4} (\mpch)^{-3}$ & $M_{\rm max}$\\
 \hline
-$z=0.0$    & $2.15\times 10^{10}$ & $1.84\times 10^{12}$ & $2.10\times 10^{13}$ & $2.11\times 10^{15}$\\ 
-$z=0.5$ & $6.44\times 10^{10}$ & $1.70\times 10^{12}$ & $1.53\times 10^{13}$ & $1.16\times 10^{15}$\\  
-$z=1.0$    & $5.58\times 10^{10}$ & $1.44\times 10^{12}$ & $1.05\times 10^{13}$ & $6.12\times 10^{14}$\\     
+$z=0.0$    & $2.15\times 10^{10} \Msun/h$, $b=0.68$ & $1.84\times 10^{12} \Msun/h$, $b=0.92$ & $2.10\times 10^{13} \Msun/h$, $b=1.44$ & $2.11\times 10^{15} \Msun/h$\\ 
+$z=0.5$ & $6.44\times 10^{10} \Msun/h$, $b=0.84$ & $1.70\times 10^{12} \Msun/h$, $b=1.24$ & $1.53\times 10^{13} \Msun/h$, $b=1.93$ & $1.16\times 10^{15} \Msun/h$\\  
+$z=1.0$    & $5.58\times 10^{10} \Msun/h$, $b=1.04$ & $1.44\times 10^{12} \Msun/h$, $b=1.62$ & $1.05\times 10^{13} \Msun/h$, $b=2.50$ & $6.12\times 10^{14} \Msun/h$\\     
 \hline\hline
 \end{tabular}
 \caption{Detailed information for various halo samples used in the performance test.
-The first line indicates the sample number density, in unit of $(\mpch)^{-3}$.
-The minimum halo mass for three number densities and  three redshifts is listed, in unit of $\Msun/h$.
+The first row indicates the sample number density.
+The minimum halo mass and bias for three number densities and  three redshifts is listed in the table.
 In the last column, the maximum halo mass is listed for three redshifts.}
 \label{tab:haloinfo}
-\end{table}
+\end{table*}
 %%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%
-%\begin{table}
-%\begin{tabular}{c|c|c|c}
-%\hline\hline
-%$M_{\rm min}$           & $z=0.0$ & $z=0.5$ & $z=1.0$ \\
-%\hline
-%$2.77\times 10^{-2}$ & $2.15\times 10^{10}$ & $6.44\times 10^{10}$ & $5.58\times 10^{10}$\\
-%$2.77\times 10^{-3}$ & $1.84\times 10^{12}$ & $1.70\times 10^{12}$ & $1.44\times 10^{12}$\\
-%$2.77\times 10^{-4}$ & $2.10\times 10^{13}$ & $1.53\times 10^{13}$ & $1.05\times 10^{13}$\\
-%\hline
-%$(\mpch)^{-3}$ & $\Msun/h$ &  $\Msun/h$ &  $\Msun/h$ \\
-%\hline\hline
-%$M_{\rm max}$          & $2.11\times 10^{15}$ & $1.16\times 10^{15}$ & $6.12\times 10^{14}$\\
-%\hline\hline
-%\end{tabular}
-%\caption{The mean and scatter of the error bar size ratio over the first $N_\ell$ bins.}
-%\label{tab:compareerror}
-%\end{table}
-%%%%%%%%%%%%%%%
-
 
 %%%%%%%%%%%%%%%
 \begin{figure*}
 \epsfxsize=18cm
 \epsffile{maps.eps}
-\caption{The input DM density field (top-left) and halo fields with number density of $2.77\times 10^{-2}$,
+\caption{The input nonlinear DM density field (top-left) and halo fields with number density of $2.77\times 10^{-2}$,
 $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$ for $z=0$.
-These halo fields adopt new assignment method to avoid empty grid and improve the stability of the reconstruction algorithm.}
+These halo fields are produced by DTFE method to avoid empty grid and improve the stability of the reconstruction algorithm.}
 \label{fig:maps}
 \end{figure*}
 %%%%%%%%%%%%%%%
 
 To test the performance of the reconstruction algorithm,
-we use a simulation run with the \texttt{CUBEP$^3$M} code (See \cite{cubep3m}), involving $2048^3$ dark matter particles in a box with side length of $600\ \mpch$.
-The particle-mesh process adopts $4096^3$ grid and the particle-particle process is involved.
+we use a simulation run with the \texttt{CUBEP$^3$M} code (see \cite{cubep3m}), involving $2048^3$ dark matter particles in a box with side length of $600\ \mpch$.
+{\bf This box size is insufficient for direct BAO measurement which is a signal locates scale of $\sim 100\mpch$.  However, the following results are mainly based on the cross-correlation with the initial conditions.  This box size is sufficient to obtain reliable results due to the cancellation of the sample variance.}
+The particle-mesh process adopts a $4096^3$ grid and the particle-particle process is involved.
 We output the snapshot at $z=0$, $0.5$, and $1$ to cover the typical redshift for current and on-going galaxy surveys.
 The reconstruction and analysis are performed on $512^3$ curvilinear and uniform grids.
 This grid size ensures that the following analysis is reliable and the reconstruction is not computationally expensive.
@@ -326,21 +291,17 @@ The detailed halo sample information is listed in Table \ref{tab:haloinfo}.
 
 The halo field is a discrete, highly non-uniform field.
 Traditional mass assignment methods (e.g., NGP, CIC, TSC) will leave many grids empty.
-As the reconstruction algorithm aims to build a potential mass coordinate in which the mass per volume element is constant, 
+As the reconstruction algorithm aims to build a potential isobaric gauge in which the mass per volume element is constant, 
 a large area with no matter will cause the algorithm unstable.
-We need a new mass assignment method to avoid this situation.
-
-The new mass assignment we adopt is similar to the NGP method.
-First, we find the nearest halo for each grid.
-If $N$ grids sharing the same halo as the nearest halo, these grids obtain $1/N$ mass.
-For those halos not being the nearest halo for any grid, NGP mass assignment is adopted.
-It is a simplified version of Voronoi tessellation method, without the calculation for the cross-section between each Voronoi polyhedral and the grid volume.
-This assignment will leave no empty grid and has negligible effect in the high density region or for a high number density sample.
-For further discussion on the new mass assignment, we refer the readers to the Appendix.
-
-Figure \ref{fig:maps} shows the simulated dark matter slice at $z=0$ and the corresponding three halo fields,
-with downgraded halo number density.
-The color blocks observed in the bottom-right plot is a feature for such a low density sample.
+We need an appropriate mass assignment method to avoid this situation.
+We tried both the Voronoi and Delaunay tessellation method (\cite{Bernardeau96,van-de-Weygaert09})
+and finally choose to adopt the better performing Delaunay tessellation method by the \texttt{DTFE} code (see \cite{Cautun11}).
+It is a linear first-order version of Natural Neighbour Interpolation.
+The Delaunay tessellation is constructed from the input halo catalogue and
+these spatial volume-covering divisions of space into mutually disjunct tetrahedral cells adapt to the local density and the local geometry of the point distribution.
+It represents the natural method of reconstructing from a discrete set of samples a volume-covering and continuous density field using the maximum of information contained in the point distribution.
+Figure \ref{fig:maps} shows the density slice produced by the DTFE method for simulated dark matter and the corresponding three halo fields at $z=0$.
+The triangular shaped color blocks observed in the bottom-right plot is a feature for such a low density sample.
 Next, we apply the reconstruction algorithm on these halo fields to quantify the performance.
 
 \subsection{Number of iteration steps}
@@ -370,11 +331,11 @@ For convenience, we just fix the number of iteration steps to be 600 for all the
 \epsffile{powerchecktot.eps}
 \epsfxsize=8.5cm
 \epsffile{cctot.eps}
-\caption{The left panel presents the power spectrum of the input fields and the reconstructed fields for $z=0$.
+\caption{The left panel presents the power spectrum of the input nonlinear fields and the reconstructed fields for $z=0$.
 As reference, linear power spectrum from theory and simulation initial condition are also plotted.
 Right panel presents the cross-correlation coefficients between the reconstructed fields and linear density field in solid line.
-For comparison, the cross-correlation coefficients between the input fields and linear density field are plotted in dotted line.
-From top to bottom, the input field is DM density field, halo fields with number density of $2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.}
+For comparison, the cross-correlation coefficients between the input nonlinear fields and linear density field are plotted in dotted line.
+From top to bottom, the input nonlinear field is DM density field, halo fields with number density of $2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.}
 \label{fig:powercc}
 \end{figure*}
 %%%%%%%%%%%%%%%
@@ -383,9 +344,9 @@ From top to bottom, the input field is DM density field, halo fields with number
 \begin{figure}
 \epsfxsize=8.5cm
 \epsffile{decomtotpk-ngp.eps}
-\caption{The power spectrum decomposition for the input (red) and reconstructed (blue) field.
+\caption{The power spectrum decomposition for the input nonlinear (red) and reconstructed (blue) field.
 The linear signal term is presented in solid line, while the noise term in dotted line.
-All the results are scaled so that the total power equals to the halo power spectrum with familiar NGP mass assginment.
+All the results are scaled {\bf mode-by-mode}, so that the total power equals to the halo power spectrum with familiar NGP mass assginment.
 The expected shot noise for NGP mass assignment, $1/n_h$, is also plotted in dashed line.
 From top to bottom, the input halo field has number density of $2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.
 The downward arrows indicate the scale where the signal term equals the noise term.}
@@ -397,24 +358,23 @@ The downward arrows indicate the scale where the signal term equals the noise te
 \begin{figure}
 \epsfxsize=8.5cm
 \epsffile{ccnh.eps}
-\caption{The comparison of cross-correlation coefficient for various input and reconstructed fields, including
+\caption{The comparison of cross-correlation coefficient for various input nonlinear and reconstructed fields, including
 the DM field and two halo samples.
-The three input fields have similar coherence with the initial condition.
-But, the reconstructed fields benefits from higher halo number density.}
+The three input nonlinear fields have similar coherence with the initial condition.
+But, the reconstructed fields benefits from higher number density.}
 \label{fig:ccnh}
 \end{figure}
 %%%%%%%%%%%%%%%
 
-In the left panel of Figure \ref{fig:powercc}, we present the power spectrum for input halo fields and the reconstructed density fields.
+In the left panel of Figure \ref{fig:powercc}, we present the power spectrum for the input halo fields and the reconstructed density fields.
 The cross-correlation coefficients with the linear density field are presented in the right panel.
 As reference, we also plot the result for the reconstruction from the nonlinear dark matter density field at the top row.
 
-Different from the method proposed by \cite{Eisenstein07},
-the reconstruction process in this work is purely a mathematical approach, 
+The reconstruction process in this work is purely a mathematical approach, 
 which does not involve any cosmological dynamics.
 Without the assumptions on the fiducial cosmology, galaxy bias, growth rate, and etc,
-the algorithm always find the potential mass coordinate on which each grid element has approximately constant mass.
-This process ensures that the reconstructed density field is same with the input field at sufficiently large scale.
+the algorithm always find the potential isobaric coordinate of which each volume element has approximately constant mass.
+This process ensures that the reconstructed density field is same with the input nonlinear field at sufficiently large scale.
 Halo is a biased tracer of the underlying dark matter density field.
 Thus, the reconstructed fields also show the same bias to linear density field at small $k$.
 The main purpose of this work is to valid the reconstruction method on the halo field, by investigating the cross-correlation with the initial conditions.
@@ -426,6 +386,11 @@ We observe smaller amount of shift (less improvement) toward decreasing halo num
 For the highest density case, $n_h=2.77\times 10^{-2}$ $(\mpch)^{-3}$ sample, the shift is $\sim 2.5$.
 For the intermediate sample, $n_h=2.77\times 10^{-3}$ $(\mpch)^{-3}$, the shift is $\lesssim 2$.
 For the lowest density case, only a very small improvement is observed.
+{\bf Note that we observe quickly damped cross-correlation coefficients for the input nonlinear halo fields towards low number density.
+This result is different from the analysis in literatures, e.g. \cite{Mehta11}, which found mild difference in the propagator for $n_h=10^{-3}\sim 10^{-4} (\mpch)^{-3}$ samples.
+This implies an additional window function effect induced by the DTFE method.
+This could be clearly seen in Fig. \ref{fig:comparestandard} by direct comparison between the cross-correlation coefficient for the input NGP halo field (red dotted line) and DTFE halo field (blue dotted line).
+However, the improvement is still observed by the nonlinear reconstruction for lowest density case.}
 
 Similar as the analysis in \cite{Seo16}, to clearly show how much linear signal is recovered by the reconstruction process,
 we decompose the density field into two terms, 
@@ -446,29 +411,103 @@ P_\delta(k)=P_s(k)+P_n(k)\ ,
 in which $P_s(k)=C^2(k)P_{\delta_L}(k)$ is the linear signal term.
 The lower limit in scale where the BAO signal could be robustly measured is quantified by the scale where the linear signal term equals the noise term.
 
-We present the power spectrum decomposition Equation (\ref{eqn:powerdecom}) for both the input halo fields and the reconstructed fields in Figure \ref{fig:decom}.
-The results are scaled so that the total power $P_s(k)+P_n(k)$ equals the halo power spectrum with familiar NGP mass assignment, to better explain the results.
-The reconstructed field not only has larger linear signal term, but also has lower noise term than the input field.
+We present the power spectrum decomposition, Equation (\ref{eqn:powerdecom}), for both the input halo fields and the reconstructed fields in Figure \ref{fig:decom}.
+{\bf Assuming that the DTFE window has same influence on the signal power and the shot noise power,
+we can scale the power decomposition result mode-by-mode, so that the total power $P_s(k)+P_n(k)$ equals the halo power spectrum with familiar NGP mass assignment, to check whether the noise term is dominated by the shot noise.}
+We found that the reconstructed field not only has larger linear signal term, but also has lower noise term than the input halo field.
 The downward arrows indicate the scale where the linear signal term equals to the noise term.
 We clearly see the decrease of the scale (increase in $k$) by the reconstruction process.
-The improvement reaches a factor of 2.29, 1.69 and 1.15 for $n_h=2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.
+The improvement reaches a factor of 2.29, 1.89 and 1.27 for $n_h=2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.
 Specifically, for the most concern case, this scale is decreased from $k=0.16$ to $0.36\ \hmpc$.
 
 Note that the noise term has two contributions, one from the nonlinear clustering and another from the shot noise.
 We present the expected shot noise power spectrum for NGP mass assignment in Figure \ref{fig:decom}.
-For the highest number density case (top panel), the noise term of the input field exceeds the expected shot noise contribution a lot.
+For the highest number density case (top panel), the noise term of the input halo field exceeds the expected shot noise contribution a lot.
 This implies that the nonlinear clustering domintes over the shot noise.
 After the reconstruciton, linear signal is recovered and meanwhile the nonlinear clustering is suppressed.
 Thus, the nonlinear reconstruction is powerful for this case.
-For the lowest number density case (bottom panel), the noise term of the input field is dominated by the shot noise.
+For the lowest number density case (bottom panel), the noise term of the input halo field is dominated by the shot noise.
 The halo field with such a low numder density is almostly the combination of the linear signal plus the Poisson noise.
 In this case, there is no usable nonlinear information and the reconstruction performance is limited.
 
-In Figure \ref{fig:ccnh}, we present the comparison of cross-correlation coefficient for various input and reconstructed fields, including the DM field and halo samples with $n_h=2.77\times 10^{-2}$ and $2.77\times 10^{-3}$ $(\mpch)^{-3}$.
-These three input fields have similar coherence with the initial condition.
+In Figure \ref{fig:ccnh}, we present the comparison of cross-correlation coefficient for various input nonlinear and reconstructed fields, including the DM field and halo samples with $n_h=2.77\times 10^{-2}$ and $2.77\times 10^{-3}$ $(\mpch)^{-3}$.
+These three input nonlinear fields have similar coherence with the initial conditions.
 This implies that $n_h\gtrsim 2.77\times 10^{-3}$ $(\mpch)^{-3}$ is roughly sufficient for extracting BAO information without any reconstruction process.
 However, the reconstruction performance indeed benefits from high halo number density.
 This strongly motivates us to go deeper for low redshift (local) surveys.
+
+\subsection{Performance on the downgraded DM field}
+\label{sec:comparedm}
+
+%%%%%%%%%%%%%%%
+\begin{figure}
+\epsfxsize=8.5cm
+\epsffile{dptot.eps}
+\caption{The cross-correlation coefficient between the reconstructed fields and the linear density field is presented in solid line, while the result for the input nonlinear halo/downgraded DM fields is presented in dotted line.
+The red lines are for the downgraded DM field, while the blue ones are for the nonlinear halo field.
+From top to bottom, the input nonlinear fields have decreasing number density.}
+\label{fig:dptot}
+\end{figure}
+%%%%%%%%%%%%%%%
+
+To separate the influence of the shot noise and bias on the reconstruction performance,
+we test and compare the reconstruction performance on three downgraded DM samples with the same number densities as the halo samples.
+Since the shot noise is same given the number density, the difference in the performance comes from the effect of the halo bias.
+The result is presented in Fig. \ref{fig:dptot}.
+The red lines are for the downgraded DM samples while the blue ones are for the halo samples.
+From top to bottom, the input nonlinear fields have decreasing number density.
+
+For the highest number density case, we find that the nonlinear reconstruction has better performance on the downgraded DM sample.
+This implies that the halo bias affects the reconstruction performance for this number density.
+It's not straightforward to correct it without the modelling of the bias (and the associated dependence on the cosmology).
+For example, the linear bias is less than one for this sample.
+Correcting this linear bias leads to negative density grids that the nonlinear reconstruction algorithm cannot deal with.
+However, the reconstruction performance is expected to be better when we find methods to properly deal with the halo bias first.
+We leave this for future investigation.
+
+For the number density of $2.77\times 10^{-3} (\mpch)^{-3}$ case, the halo sample roughly has $b\sim 1$, and share the same shot noise with the downgraded DM sample.
+Thus, it is expected that the reconstruction has similar performance on these two samples. 
+
+For the lowest number density case, the halo sample has $b>1$ and the halo power spectrum is larger than the DM one at large scale.
+Thus, the same level shot noise has larger impact on the downgraded DM sample than the halo sample.
+The nonlinear reconstruction is expected to benefit from this large bias.
+However, if not subtracted from the auto-power spectrum, the shot noise has larger impact on the cross-correlation coefficient for DM sample than the halo sample.
+This leads to the low cross-correlation coefficient for the downgraded DM sample at large scales
+and make the direct performance comparison less meaningful.
+Besides this effect, we observe similar increase in the cross-correaltion coefficient from the reconstruction process for both samples.
+
+
+\subsection{Comparison with the standard reconstruction}
+\label{sec:compareeisen}
+
+%%%%%%%%%%%%%%%
+\begin{figure}
+\epsfxsize=8.5cm
+\epsffile{eisentot.eps}
+\caption{The cross-correlation coefficient between the reconstructed fields and the linear density field is presented in solid line, while the result for the input halo fields is presented in dotted line.
+The red lines are for standard reconstruction method, while the blue ones are for the nonlinear reconstruction.
+From top to bottom, the input nonlinear halo fields have decreasing number density. }
+\label{fig:comparestandard}
+\end{figure}
+%%%%%%%%%%%%%%%
+
+We compare the reconstruction performance with the standard method (\cite{Eisenstein07}) used in the literatures for $z=0$.
+The performance of standard reconstruction depends on the smoothing kernel used in the algorithm.
+Here, we just choose to use a Gaussian smoothing with smoothing length of  $15 \mpch$.
+We quantify the performance by the cross-correlation coefficient with the initial conditions and 
+the result is presented in Fig. \ref{fig:comparestandard}.
+The blue solid lines are the cross-correlation coefficient from the nonlinear reconstruction method,
+ while the red solid lines are from the standard reconstruction method.
+The dotted lines are the cross-correlation coefficient between the input nonlinear halo fields and the initial conditions.
+From top to bottom, the input nonlinear halo fields have decreasing number density. 
+We find that for the two high number density case, the nonlinear reconstruction method outperforms the standard one.
+
+For the lowest number density case, both the nonlinear reconstruction method and the standard method increase the cross-correlation with the initial conditions (from dotted line to solid line).
+However, the nonlinear reconstruction method outperform the standard one at $k\lesssim 0.13 \hmpc$ and vice verse at $k \gtrsim 0.13 \hmpc$.
+Note that the cross-correlation coefficient of the input nonlinear halo field for standard method (red dotted line) is calculated from the halo field with NGP mass assignment, which has better correlation with the initial conditions than the DTFE method (dotted blue line).
+This implies that for such a low number density case, DTFE method lose a part of linear information due to the heavy window function effect.
+This results into the worse performance of the nonlinear reconstruction method at $k\gtrsim 0.13 \hmpc$.
+
 
 \subsection{Dependence on redshift}
 \label{sec:evo}
@@ -489,10 +528,10 @@ Note that these halo samples at different redshifts are not the same halo popula
 
 The top panel shows the result for the input halo sample with number density of $2.77\times 10^{-2}$ $(\mpch)^{-3}$. 
 The higher redshift halo field experiences less nonlinear evolution, and thus contains more linear information.
-The reconstruction increases the cross-correlation coefficients similarly for all three redshifts.
+The reconstruction increases the cross-correlation coefficients in a similar way for all the three redshifts we investigated.
 The performance is only mildly degraded for $z=1$.
 
-For the input halo field with a number density of $2.77\times 10^{-3}$ $(\mpch)^{-3}$, we can still see the improvements for all three redshifts.
+For the input halo field with a number density of $2.77\times 10^{-3}$ $(\mpch)^{-3}$, we can still see the improvements for all the three redshifts.
 However, the improvement is less obvious toward higher redshift.
 %This could be explained by the fact that the halo sample with such a low number density (large mean separation) is much less sensitive on the nonlinear effects.
 This could be explained by the fact that the higher redshift halo field has not only a lower nonlinear clustering effect, but also a relatively larger shot noise contribution.
@@ -506,7 +545,7 @@ After the reconstruction, we only observe very small or no improvement for these
 In the two lowest density case, we observe the convergence for the recovered cross-correlation coefficients for different redshifts.
 If we define a characteristic scale to quantify the performance, namely where the cross-correlation coefficients drops to 0.7 (corresponds to $S/N=1$ for the power spectrum decomposition Equation (\ref{eqn:powerdecom}), see \cite{zhuhm16a}),   
 we find this roughly scales as $n_h^{1/3}$.
-This implies that the reconstruction performance is already limited by Poisson noise for a given halo number density.
+{\bf The fact that the dependence of this characteristic scale on $n_h$ with a power of $1/3$ rather than a power $\ll 1/3$ implies that the reconstruction performance is already limited by Poisson noise.}
 It is also this limitation that mildly degrades the reconstruction performance for $n_h=2.77\times 10^{-2}\ (\mpch)^{-3}$ at $z=1$.
 
 
@@ -518,23 +557,28 @@ It is also this limitation that mildly degrades the reconstruction performance f
 
 We tested the reconstruction method proposed in \citet{zhuhm16c} on the simulated halo fields with three different number densities and at three redshifts.
 The reconstruction performance is quantified by the extension in scale where the BAO signal could be robustly measured.
-We decomposed the power spectrum of both the input field and the reconstructed field into a linear signal term plus a noise term.
+We decomposed the power spectrum of both the input halo field and the reconstructed field into a linear signal term plus a noise term.
 This scale is defined at where the linear term equals the noise term.
-For the most concerned case, $n_h=2.77\times 10^{-2}\ (\mpch)^{-3}$ at $z=0$ which is close to the condition of SDSS main sample, we found the improvement reaches a factor of $2.29$ in scale (from $k=0.16$ to $0.36\ \hmpc$), or equivalently, a factor of $12$ for available modes for BAO measurement.
+For the most concerned case, $n_h=2.77\times 10^{-2}\ (\mpch)^{-3}$ at $z=0$, which is close to the condition of SDSS main galaxy sample, we found the improvement reaches a factor of $2.29$ in scale (from $k=0.16$ to $0.36\ \hmpc$), or equivalently, a factor of $12$ for available modes for BAO measurement.
+For this case, the nonlinear reconstruction method outperforms the standard reconstruction method.
 
-We found better reconstruction performance for higher halo number density case.
+The reconstruction performance depends on the halo number density.
 At $z=0$, the improvements reach a factor of $2.29$, $1.69$ and $1.15$ for halo sample with number density of $n_h=2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.
 We also reported the limited reconstruction power for the low number density cases, which roughly correspond to the targets of the on-going high redshift surveys.
 
 To apply the new reconstruction method on discrete halo fields,
 we need a suitable mass assignment method, which does not induce extra degree-of-freedom in the process.
-The simplified Voronoi tessellation method we adopted in this work is a straightforward attempt.
-There may exist better mass-assignment worth a try to deal with this issue (e.g., Delaunay tessellation method, \cite{Cautun11}).
+The DTFE method we adopted in this work is a straightforward attempt.
+We also tried other methods like the Voronoi tessellation.
+The performance is a little bit downgraded by adopting the Voronoi tessellation method.
+There may exist better mass-assignment worth a try in dealing with this issue.
 However, for the most concerned high density case, the choice of mass assignment is less important.
 For low density case, none of the mass assignment could present the underlying DM field well without introducing extra parameters.
+We also reported that the window function effect from the DTFE method erases a part of linear signal in the nonlinear halo field for the lowest number density case.
+
 
 As discussed in \cite{zhuhm16c},
-the Lagrangian BAO reconstruction algorithm involves displacing individual objects according to the linear displacement that is computed from the observed galaxy distribution under certain model assumptions (the fiducial cosmology, galaxy bias, growth rate, etc (See \cite{Eisenstein07}). The results depend on the assumed fiducial model and must be tested against different parameter choices, which is computationally expensive (See \cite{Padmanabhan12}). The reconstruction method used in this work is a purely mathematical approach with no cosmological dynamics involved. 
+the Lagrangian BAO reconstruction algorithm involves displacing individual objects according to the linear displacement that is computed from the observed galaxy distribution under certain model assumptions (the smoothing scale, galaxy bias, growth rate, etc (See \cite{Eisenstein07}). The results depend on the assumed fiducial model and must be tested against different parameter choices, which is computationally expensive (See \cite{Padmanabhan12}). The reconstruction method used in this work is a purely mathematical approach with no cosmological dynamics involved. 
 
 The reconstruction from the nonlinear DM field gives an estimate for displacement field (See \cite{zhuhm16c}).
 This is not the case for the reconstruction from a biased tracer, i.e. the halo field.
@@ -543,13 +587,13 @@ However, one could involve the above mentioned model assumptions (the fiducial c
 In this way, the reconstructed displacement field is more physically motivated and might have further applications.
 We leave this to future investigation.
 
-We focused on investigating the dependence on the halo number density and redshifts.
+We focused on investigating the dependence on the halo number density and redshift.
 One immediate and urgent future work is the performance test on the halo samples with the RSD effect.
 The RSD effect is due to the structure growth, and thus contains important cosmological information.
 The observed position of an object is shifted by its peculiar velocity along the line-of-sight.
 This simply adds an extra offset on the real displacement field. 
 Thus, the displacement field reconstructed from the observed density field automatically includes this additive offset. 
-Since much less nonlinearities involved in the displacement potential, the modeling of RSD will be improved significantly.
+Since much less nonlinearities involved in the displacement potential, the measurement and modeling of RSD will be improved significantly.
 This also helps to simultaneously model the BAO and RSD signal.
 
 To apply the proposed reconstruction method in observations, there are many observational issues need investigation, including the selection function, the survey geometry, and etc.
@@ -557,60 +601,12 @@ We will investigate these issues in near future.
 
 \section*{Acknowledgment}
 We thank Pengjie Zhang, Xin Wang, Xuelei Chen, Kwan Chuen Chan, Haoran Yu, Morgan Bennett and Qiaoyin Pan for useful discussions.
-This work was supported by the national science foundation of China (Grant No. 11403071, 11373030),
-the Strategic Priority Research Program ``The Emergence of Cosmological Structures'' of the Chinese Academy of Sciences (grant No. XDB09000000).
-The simulations are performed on the BGQ super-computer at the SciNet HPC Consortium. SciNet is funded by the Canada Foundation for Innovation under the auspices of Compute Canada, the Government of Ontario, the Ontario Research Fund Research Excel- lence, and the University of Toronto. 
-
-\appendix
-\section{halo mass assignment}
-
-%%%%%%%%%%%%%%%
-\begin{figure*}
-\epsfxsize=18cm
-\epsffile{0.000ngp-np-compare.eps}
-\caption{The upper row shows the cross-correlation coefficients between the halo fields with the simulated DM field.
-The solid lines with star present the result for the halo fields produces by the new mass assignment (simplified voronoi tessellation method).
-For comparison, the result for the NGP halo fields is plotted in dotted lines with square.
-From left to right, the halo number density is $2.77\times 10^{-2}$, $2.77\times 10^{-3}$, $2.77\times 10^{-4}$ $(\mpch)^{-3}$, respectively.
-The bottom row shows the cross-correlation coefficients with the initial condition.
-In the calculation, shot noise is not subtracted and window functions are not deconvolved,
-since we want to see how different the two halo fields are.
-}
-\label{fig:cmpcc}
-\end{figure*}
-%%%%%%%%%%%%%%%
-
-We want to check the difference between the new mass assignment (simplified Voronoi tessellation method (SVT)) and the NGP method.
-We calculate the cross-correlation coefficients between the halo fields produced by these two methods with the DM field, for each halo number density.
-Note that the comparison here is not aiming at calculating the clustering statistics (e.g., the power spectrum) precisely.
-Thus, we do not subtract the shot noise and not deconvolve the window functions in all the power spectrum and cross-correlation coefficient calculation.
-The result is presented in upper row of Figure \ref{fig:cmpcc}.
-
-%At high density regime, the two mass assignment method would be the same.
-%At empty regime, the simplified Voronoi tessellation method assigns the point mass (halo) equally to several grids.
-%Thus, the differences appear at small scales.
-%Toward decreasing halo number density, the fraction of empty regime increases rapidly.
-%Thus, the difference is expected to be more obvious and to show up at larger scales for lower halo number density cases.
-
-%From the result shown in Figure \ref{fig:cmpcc}, we find that it is indeed the case.
-For the highest halo number density, the difference only appears at small scale $k>1\ \hmpc$,
- much smaller than the scale where the recovered BAO information locates.
-Thus, the reconstruction performance test is reliable for this case.
-The difference is larger toward decreasing halo number density, and begins to show up at smaller $k$.
-For $n_h=2.77\times 10^{-3} (\mpch)^{-3}$ case, the difference shows up at $k\sim 0.3\ \hmpc$,
- and for $n_h=2.77\times 10^{-4} (\mpch)^{-3}$ it shows up at $k\sim 0.1\ \hmpc$.
- 
-In the bottom row of  Figure \ref{fig:cmpcc}, we present the cross-correlation coefficients with the initial condition. 
-We find that, only for $n_h=2.77\times 10^{-4} (\mpch)^{-3}$, the two halo fields from different mass assignment method contain slightly different linear information.
-Furthermore, the comparison between the upper row and bottom row implies that the halo field produced by the new mass assignment traces the DM field better than initial condition (i.e., to a smaller scale). 
-This implies that there exists information exceeding the linear information and residing in the final density field.
-This part of information could be used by the nonlinear reconstruction.
-Thus, the reconstruction performance is not limited by the mass assignment and the unsatisfying performance for $n_h=2.77\times 10^{-4} (\mpch)^{-3}$ is due to the low number density instead of the effect from the new mass assignment.
-\\\\
-
+This work was supported by the national science foundation of China (Grant No. 11403071).
+The simulation is performed on the BGQ super-computer at the SciNet HPC Consortium. SciNet is funded by the Canada Foundation for Innovation under the auspices of Compute Canada, the Government of Ontario, the Ontario Research Fund Research Excellence, and the University of Toronto. 
+The Dunlap Institute is funded through an endowment established by the David Dunlap family and the University of Toronto. Research at the Perimeter Institute is supported by the Government of Canada through Industry Canada and by the Province of Ontario through the Ministry of Research \& Innovation.
 
 \bibliographystyle{aasjournal}
-\bibliography{mybib150821}
+\bibliography{yuyu}
 
 \clearpage
 
